@@ -24,7 +24,8 @@ export default {
         {type: 'mailchimp'},
         {type: 'textSection'},
         {type: 'boardPage'},
-        {type: 'páginaJunta'}
+        {type: 'páginaJunta'},
+        {type: 'servicesPage'}
       ]
     },
     {

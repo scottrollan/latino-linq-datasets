@@ -9,10 +9,12 @@ import page from './documents/page'
 import route from './documents/route'
 import siteConfig from './documents/siteConfig'
 import board from './documents/board'
+import service from './documents/service'
 
 // Custom Full Pages
 import boardPage from './objects/boardPage'
 import páginaJunta from './objects/páginaJunta'
+import servicesPage from './objects/servicesPage'
 
 // Object types
 import cta from './objects/cta'
@@ -49,6 +51,8 @@ export default createSchema({
     páginaJunta,
     portableText,
     route,
+    service,
+    servicesPage,
     simplePortableText,
     siteConfig,
     textSection

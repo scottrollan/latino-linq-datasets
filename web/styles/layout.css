@@ -1,6 +1,6 @@
 @import './custom-properties.css';
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Seymour+One&display=swap');
 html {
   font-family: var(--font-family-sans);
   font-size: var(--font-base-size);
