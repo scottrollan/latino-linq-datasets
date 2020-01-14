@@ -30,26 +30,36 @@ class ServicesPage extends Component {
           let imageUrl = `https://cdn.sanity.io/images/q4pr99l8/production/${imageArray[1]}-${imageArray[2]}.${imageArray[3]}` // gives image <image id>-<original size>.<extension>
           return (
             <div key={index}>
-              <img
-                src={imageUrl}
-                alt=''
-              />
-              <h3>{service.titleEng}</h3>
-              <p>{service.descriptionEng}</p>
+              <span>
+                <img
+                  src={imageUrl}
+                  alt=''
+                />
+                <h3>{service.titleEng}</h3>
+                <p>{service.descriptionEng}</p>
+              </span>
             </div>
           )
         })}
         <style jsx>{`
           div {
-              float: left;
-              width: calc(80% / ${this.state.numberOfItems});
-              margin: 0 calc(20% / (${this.state.numberOfItems} * 2));
-              text-align: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 100%;
+            text-align: center;
           }
-          img {
-              width: 100%
+          span {
+            width: calc(80% / ${this.state.numberOfItems});
           }
-          @media
+          @media only screen and (max-width: 760px) {
+            div {
+              flex-direction: column;
+            }
+            span {
+              width: 80%;
+            }
+          }
         `}</style>
       </section>
     )
