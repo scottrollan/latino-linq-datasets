@@ -23,7 +23,8 @@ export default {
         {type: 'imageSection'},
         {type: 'mailchimp'},
         {type: 'textSection'},
-        {type: 'boardPage'}
+        {type: 'boardPage'},
+        {type: 'páginaJunta'}
       ]
     },
     {
