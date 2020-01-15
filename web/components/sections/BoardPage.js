@@ -4,8 +4,7 @@ class BoardPage extends Component {
   state = {
     boardMembers: []
   }
-  render () {
-    let boardMembers = []
+  componentDidMount () {
     const sanityClient = require('@sanity/client')
     const client = sanityClient({
       projectId: 'q4pr99l8',
@@ -14,13 +13,11 @@ class BoardPage extends Component {
       useCdn: true // `false` if you want to ensure fresh data
     })
     const query = `*[_type=='board'] | order(displayOrder asc)`
-    client.fetch(query).then(member => {
-      member.forEach(m => {
-        boardMembers.push(m)
-      })
-      this.setState({boardMembers: boardMembers})
+    client.fetch(query).then(response => {
+      this.setState({boardMembers: response})
     })
-
+  }
+  render () {
     return (
       <section>
         {this.state.boardMembers.map((person, index) => {

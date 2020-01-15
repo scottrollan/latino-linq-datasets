@@ -1,0 +1,39 @@
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+  }
+  .service {
+    width: 30%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  #contactDiv {
+    width: 40%;
+    margin: 0 30%;
+  }
+  .contactBtn {
+    clear: both;
+    background: transparent;
+    width: auto;
+    margin: 30px 0;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+  }
+  .contactBtn:hover {
+    background: black;
+    color: white;
+  }
+  @media only screen and (max-width: 760px) {
+    .flexbox {
+      flex-direction: column;
+    }
+    .service {
+      width: 100%;
+      padding: 10px 10%;
+    }
+  }
