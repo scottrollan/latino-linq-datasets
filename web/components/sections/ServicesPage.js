@@ -30,6 +30,7 @@ class ServicesPage extends Component {
                 <img
                   src={imageUrl}
                   alt=''
+                  style={{maxWidth: '100%'}}
                 />
                 <h3>{service.titleEng}</h3>
                 <p>{service.descriptionEng}</p>

@@ -4,6 +4,7 @@
     justify-content: space-evenly;
     width: 100%;
     text-align: center;
+    align-items: baseline;
   }
   .service {
     width: 30%;
