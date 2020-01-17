@@ -19,6 +19,7 @@ export default {
       type: 'array',
       title: 'Page sections',
       of: [
+        {type: 'english'},
         {type: 'hero'},
         {type: 'imageSection'},
         {type: 'mailchimp'},

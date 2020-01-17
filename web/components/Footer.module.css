@@ -25,13 +25,20 @@
 }
 
 .text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
   text-align: center;
 
-  @nest & p {
-    margin: 1rem 0;
+  @nest & img {
+    width: 100%;
+    /* max-width: 100px; */
   }
 
   @nest & a {
+    width: 10%;
+    max-width: 100px;
     color: inherit;
   }
 }

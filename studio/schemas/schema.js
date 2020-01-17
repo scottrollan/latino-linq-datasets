@@ -15,6 +15,7 @@ import service from './documents/service'
 import boardPage from './objects/boardPage'
 import páginaJunta from './objects/páginaJunta'
 import servicesPage from './objects/servicesPage'
+import english from './objects/english'
 
 // Object types
 import cta from './objects/cta'
@@ -41,6 +42,7 @@ export default createSchema({
     boardPage,
     cta,
     embedHTML,
+    english,
     figure,
     hero,
     imageSection,

@@ -34,6 +34,9 @@ function Footer (props) {
       </nav>
       <div className={styles.text}>
         <SimpleBlockContent blocks={text} />
+        <a href='https://www.instagram.com/latinolinq/' target='_blank'><img src='https://cdn.sanity.io/images/q4pr99l8/production/b78eb8bc40de56fa2b4f35fab42cb4de2c7d07e1-1455x1454.png' alt=''/></a>
+        <a href='https://twitter.com/latinolinq' target='_blank'><img src='https://cdn.sanity.io/images/q4pr99l8/production/ce96a4d56b147faea552a1b864349ee97df0f3f2-1259x1024.png' alt='' /></a>
+        <a href='https://www.facebook.com/latinolinq' target='_blank'><img src='https://cdn.sanity.io/images/q4pr99l8/production/0bdae2de0438d949a1f280f2ed6516886908488a-1600x1600.png' alt=''/></a>
       </div>
     </div>
   )

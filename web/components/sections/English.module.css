@@ -1,0 +1,19 @@
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.button {
+    background: transparent;
+    border: none;
+    margin: auto;
+    padding: 10px 0 10px 35%;
+    font-size: 3em;
+    color: white;
+}
+.button:hover {
+    color: gray;
+    text-decoration: underline;
+}
