@@ -1,7 +1,7 @@
 export default {
   type: 'object',
-  name: 'páginaJunta',
-  title: 'Página Junta',
+  name: 'boardPageEsp',
+  title: 'Board Page Spanish',
   fields: [
     {
       name: 'label',
@@ -21,7 +21,7 @@ export default {
     prepare ({heading}) {
       return {
         title: `${heading}`,
-        subtitle: 'Página Junta'
+        subtitle: 'Página Junta - Board Page Esp'
       }
     }
   }

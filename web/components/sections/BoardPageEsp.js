@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-class PáginaJunta extends Component {
+class BoardPageEsp extends Component {
   state = {
     boardMembers: []
   }
@@ -44,4 +44,4 @@ class PáginaJunta extends Component {
   }
 }
 
-export default PáginaJunta
+export default BoardPageEsp

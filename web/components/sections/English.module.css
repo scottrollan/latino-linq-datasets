@@ -2,15 +2,18 @@
 .flexbox {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     background-color: black;
+    padding: 0 5%;
+    text-align: right;
 }
 
 .button {
     background: transparent;
     border: none;
     margin: auto;
-    padding: 10px 0 10px 35%;
-    font-size: 3em;
+    padding: 10px 0;
+    font-size: 2em;
     color: white;
 }
 .button:hover {

@@ -20,12 +20,13 @@ export default {
       title: 'Page sections',
       of: [
         {type: 'english'},
+        {type: 'español'},
         {type: 'hero'},
         {type: 'imageSection'},
         {type: 'mailchimp'},
         {type: 'textSection'},
         {type: 'boardPage'},
-        {type: 'páginaJunta'},
+        {type: 'boardPageEsp'},
         {type: 'servicesPage'}
       ]
     },

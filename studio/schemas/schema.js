@@ -13,9 +13,11 @@ import service from './documents/service'
 
 // Custom Full Pages
 import boardPage from './objects/boardPage'
-import páginaJunta from './objects/páginaJunta'
+import boardPageEsp from './objects/boardPageEsp'
 import servicesPage from './objects/servicesPage'
 import english from './objects/english'
+import español from './objects/español'
+
 
 // Object types
 import cta from './objects/cta'
@@ -40,9 +42,11 @@ export default createSchema({
   types: schemaTypes.concat([
     board,
     boardPage,
+    boardPageEsp,
     cta,
     embedHTML,
     english,
+    español,
     figure,
     hero,
     imageSection,
@@ -50,7 +54,6 @@ export default createSchema({
     link,
     mailchimp,
     page,
-    páginaJunta,
     portableText,
     route,
     service,
