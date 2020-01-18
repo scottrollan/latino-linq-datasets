@@ -29,12 +29,12 @@ class BoardPageEsp extends Component {
           return (
             <div key={index} style={{textAlign: 'justify', minHeight: '280px', margin: '0', padding: '30px 20%', background: person.displayOrder % 2 === 0 ? 'white' : 'black'}}
             >
-              <h3 style={{color: person.displayOrder % 2 === 0 ? 'black' : 'white'}}>{person.name}, {person.titleEsp}</h3>
               <img
                 src={imageUrl}
                 alt=''
                 style={{margin: person.displayOrder % 2 === 0 ? '0 0 10px 20px' : '0 20px 10px 0', float: person.displayOrder % 2 === 0 ? 'right' : 'left'}}
               />
+              <h3 style={{color: person.displayOrder % 2 === 0 ? 'black' : 'white'}}>{person.name}, {person.titleEsp}</h3>
               <p style={{color: person.displayOrder % 2 === 0 ? 'black' : 'white'}}>{person.bioEsp}</p>
             </div>
           )
