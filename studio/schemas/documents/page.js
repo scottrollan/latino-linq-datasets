@@ -27,7 +27,8 @@ export default {
         {type: 'textSection'},
         {type: 'boardPage'},
         {type: 'boardPageEsp'},
-        {type: 'servicesPage'}
+        {type: 'servicesPage'},
+        {type: 'servicesPageEsp'}
       ]
     },
     {

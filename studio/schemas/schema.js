@@ -15,6 +15,7 @@ import service from './documents/service'
 import boardPage from './objects/boardPage'
 import boardPageEsp from './objects/boardPageEsp'
 import servicesPage from './objects/servicesPage'
+import servicesPageEsp from './objects/servicesPageEsp'
 import english from './objects/english'
 import español from './objects/español'
 
@@ -58,6 +59,7 @@ export default createSchema({
     route,
     service,
     servicesPage,
+    servicesPageEsp,
     simplePortableText,
     siteConfig,
     textSection
