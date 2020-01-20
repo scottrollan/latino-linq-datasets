@@ -10,7 +10,7 @@ html {
 body {
   -webkit-font-smoothing: antialiased;
   background: var(--color-white);
-  color: var(--color-black);
+  color: var(--color-#565656);
   margin: 0;
 }
 

@@ -10,6 +10,7 @@ import route from './documents/route'
 import siteConfig from './documents/siteConfig'
 import board from './documents/board'
 import service from './documents/service'
+import event from './documents/event'
 
 // Custom Full Pages
 import boardPage from './objects/boardPage'
@@ -48,6 +49,7 @@ export default createSchema({
     embedHTML,
     english,
     español,
+    event,
     figure,
     hero,
     imageSection,
