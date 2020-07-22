@@ -14,6 +14,16 @@ export default {
       type: 'string',
     },
     {
+      name: 'subtitle',
+      title: 'Subitle',
+      type: 'string',
+    },
+    {
+      name: 'subtítulo',
+      title: 'Subtítulo',
+      type: 'string',
+    },
+    {
       name: 'start',
       title: 'Start Date,',
       type: 'datetime',
@@ -49,14 +59,41 @@ export default {
       title: 'Información del Evento (español)',
     },
     {
-      name: 'link',
+      name: 'link1Description',
+      type: 'string',
+      title: 'Any explanation for the first link.',
+    },
+    {
+      name: 'link1',
       type: 'url',
-      title: 'URL to Event (if any)',
+      title: 'First URL to Event (if any)',
+    },
+    {
+      name: 'link2Description',
+      type: 'string',
+      title: 'Any explanation for the second link.',
+    },
+    {
+      name: 'link2',
+      type: 'url',
+      title: 'Second URL to Event (if any)',
     },
     {
       name: 'image',
       type: 'image',
       title: 'Image',
+    },
+    {
+      name: 'importantInfo',
+      type: 'string',
+      title:
+        'Any emphasized information (Ex: "Register Now!!" - this will be bolded at the bottome of the event)',
+    },
+    {
+      name: 'informaciónImportante',
+      type: 'string',
+      title:
+        'Cualquier información enfatizada (Ej: "¡Regístrese ahora!" - esto estará en negrita al final de la descripción del evento)',
     },
   ],
 
