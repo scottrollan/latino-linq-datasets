@@ -6,45 +6,53 @@ export default {
     {
       name: 'name',
       title: 'Name',
-      type: 'string'
+      type: 'string',
     },
     {
       name: 'displayOrder',
       title: 'Order on page',
       type: 'number',
-      description: '1 will be the first to be displayed, 2 will be the second, etc.'
+      description: '1 will be the first to be displayed, 2 will be the second, etc.',
     },
     {
       name: 'titleEsp',
       type: 'string',
-      title: 'Título en español'
+      title: 'Título en español',
     },
     {
       name: 'titleEng',
       type: 'string',
-      title: 'Title in English'
+      title: 'Title in English',
     },
     {
       name: 'bioEsp',
-      type: 'text',
-      title: 'Bio en español'
+      type: 'array',
+      title: 'Bio en español',
+      of: [{ type: 'block' }],
     },
     {
       name: 'bioEng',
-      type: 'text',
-      title: 'Bio in English'
+      type: 'array',
+      title: 'Bio in Englis',
+      of: [
+        {
+          type: 'block',
+          styles: [],
+          lists: [],
+        },
+      ],
     },
     {
       name: 'memberImage',
       type: 'image',
-      title: 'Headshot'
-    }
+      title: 'Headshot',
+    },
   ],
 
   preview: {
     select: {
       title: 'name',
-      media: 'memberImage'
-    }
-  }
+      media: 'memberImage',
+    },
+  },
 }

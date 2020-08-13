@@ -66,7 +66,7 @@ export default {
     {
       name: 'link1',
       type: 'url',
-      title: 'First URL to Event (if any)',
+      title: 'First URL to Event (if any) in this form: http://google.com',
     },
     {
       name: 'link2Description',
@@ -76,7 +76,7 @@ export default {
     {
       name: 'link2',
       type: 'url',
-      title: 'Second URL to Event (if any)',
+      title: 'Second URL to Event (if any) in this form: http://facebook.com',
     },
     {
       name: 'image',
