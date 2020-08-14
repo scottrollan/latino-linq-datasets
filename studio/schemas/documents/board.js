@@ -28,15 +28,23 @@ export default {
       name: 'bioEsp',
       type: 'array',
       title: 'Bio en español',
-      of: [{ type: 'block' }],
+      of: [
+        {
+          type: 'block',
+          styles: [],
+          lists: [],
+        },
+      ],
     },
     {
       name: 'bioEng',
       type: 'array',
-      title: 'Bio in Englis',
+      title: 'Bio in English',
       of: [
         {
           type: 'block',
+          styles: [],
+          lists: [],
         },
       ],
     },
